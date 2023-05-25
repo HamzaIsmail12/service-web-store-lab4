@@ -1,7 +1,7 @@
 name: Docker Build and test 
 on:
  push:
-  branch:
+  branches:
     - testing-pipeline
 
     jobs:

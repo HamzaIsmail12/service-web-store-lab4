@@ -19,6 +19,8 @@ on:
          node-version: '14'
 
 
+
+
          - name: Build the Docker Image 
          run: docker build- -t hamzaismael2/service-web-store-lab4:hamzaismael2/service-web-store-lab4 . 
 

@@ -19,7 +19,7 @@ jobs:
         node-version: '14'
 
     - name: Build the Docker Image 
-      run: docker build- -t hamzaismael2/service-web-store-lab4:hamzaismael2/service-web-store-lab4 . 
+      run: docker build- -t hamzaismael2/service-web-store-lab4:${{ github.sha }} . 
 
 
     - name: log in to the ole Docker hub
@@ -27,4 +27,4 @@ jobs:
 
 
     - name : push the docker to that silly little dockerhub
-      run: docker push hamzaismael2/service-web-store-lab4:hamzaismael2/service-web-store-lab4
+      run: docker push hamzaismael2/service-web-store-lab4:${{ github.sha }}

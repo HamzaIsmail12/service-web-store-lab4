@@ -1,0 +1,11 @@
+node_modules/
+service-web-store.code-workspace
+
+### Docker Data ###
+docker/data
+
+### Multer uploaded images ###
+images/
+
+### MacOS ###
+.DS_Store
